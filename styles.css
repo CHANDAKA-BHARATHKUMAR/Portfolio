@@ -1,0 +1,123 @@
+.flex-container{
+    display:flex;
+    background-color:#212529;
+    justify-content:space-around;
+    height:55px;
+    margin-bottom: 2px;
+}
+.nav-item > *{
+    height:20vh;
+    padding-top:20px;
+    padding-bottom: 10px;
+    color:white;
+    font-size:18px;
+}
+.nav-item{
+    margin-top: 13px;
+}
+a {
+text-decoration: none;
+}
+
+.container{
+text-align:center;
+}
+.name{
+color:bisque;
+font-size:x-large;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 20px;
+}
+section{
+background-color:#1F2544;
+
+}
+.lead{
+color:antiquewhite
+}
+.text{
+color:#FFCF96;
+font-size: 70px;
+}
+.title-edu{
+font-size:50px;
+color:aliceblue;
+font-style: bold;
+padding-bottom: 30px;
+}
+.profile{
+border-radius: 50%;
+
+}
+.grid-container{
+display:grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr;
+gap:15px;
+justify-content: center;
+
+
+}
+.grid-container > *{
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.box {
+background-color:cornflowerblue;
+border: 2px solid ;
+border-radius: 10px;
+padding: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 25px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+}
+
+.box:hover{
+transform: scale(1.1);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.grid-skills{
+display:grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 400px 400px;
+gap:10px;
+justify-content: center;
+}
+
+.flex-cont{
+    display:flex;
+justify-content:center;
+align-items: center;
+padding-top: 20px;
+}
+.card-body{
+color:black;
+background-color: cornflowerblue;
+}
+
+.flex-contact{
+background-color: cornflowerblue;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.background{
+background-color: cornflowerblue;
+align-items: center;
+justify-content: center;
+}
+.image{
+padding-top: 20px;
+padding-left: 200px;
+float: left;
+}
+
+.color{
+    background-color:#1F2544 ;
+    height: 100vh;
+}

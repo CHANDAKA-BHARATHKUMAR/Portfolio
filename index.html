@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>It's Bharath's</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            
+            .flex-container{
+                display:flex;
+                background-color:#212529;
+                justify-content:space-around;
+                height:55px;
+                margin-bottom: 2px;
+            }
+            .nav-item > *{
+                height:20vh;
+                padding-top:20px;
+                padding-bottom: 10px;
+                color:white;
+                font-size:18px;
+            }
+            .nav-item{
+                margin-top: 13px;
+            }
+            a {
+            text-decoration: none;
+        }
+
+        .container{
+            text-align:center;
+        }
+        .name{
+            color:bisque;
+            font-size:x-large;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+        }
+        section{
+            background-color:#1F2544;
+            padding-bottom: 30px;
+        }
+        .lead{
+            color:antiquewhite
+        }
+        .text{
+            color:#FFCF96;
+            font-size: 70px;
+        }
+        .title-edu{
+            font-size:50px;
+            color:aliceblue;
+            font-style: bold;
+            padding-bottom: 20px;
+        }
+        .profile{
+            border-radius: 50%;
+    
+        }
+        .grid-container{
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            gap:15px;
+            justify-content: center;
+
+           
+        }
+        .grid-container > *{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .box {
+    background-color:cornflowerblue;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+        }
+
+        .box:hover{
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+        }
+        .grid-skills{
+            display:grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 400px 400px;
+            gap:10px;
+            justify-content: center;
+        }
+            
+            .flex-cont{
+                display:flex;
+            justify-content:center;
+            align-items: center;
+            padding-top: 20px;
+            }
+        .card-body{
+            color:black;
+            background-color: cornflowerblue;
+        }
+       
+        .flex-contact{
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .background{
+            background-color: cornflowerblue;
+            align-items: center;
+            justify-content: center;
+        }
+       .image{
+        padding-top: 20px;
+        padding-left: 200px;
+        float: left;
+       }
+        </style>
+    </head>
+    <body>
+        <section>
+            <!--nav bar-->
+            <div class="flex-container">
+                <div class="navbar-brand name"><img src="./person.svg" height="30"> Ch.Bharath Kumar</div>
+                <div class="nav-item"><a href="education.html">Education</a></div>
+                <div class="nav-item"><a href="skills.html">Skills</a></div>
+                <div class="nav-item"><a href="Certifications.html">Certifications</a></div>
+                <div class="nav-item"><a href="contact.html">Contact</a></div>
+                </div>          <!--profile page-->
+            <div class="container">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                        <div class=" col-10 col-sm-8 col-lg-6">
+                        <img style="border-radius:50%" src="./profile.png.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="700" loading="lazy" style="margin-left:70px;">
+                      </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text lh-1 mb-3">Hi,I'm Bharath.</h1>
+                        <p class="lead"><i>"A passionate student who have a background in <b>Computer Science</b> which allows me to bridge the gap between technical and creative work."</i></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section>
+            <!--Education-->
+            <div class="container" style="padding-bottom: 20px;">
+                
+                    <div class="navbar-brand" style=""><img src="./book.svg" height="40"></div>
+                    <div><h1 class="title-edu">Education</h1></div>
+                    
+                     
+                        <div class="grid-container"></div>
+                     <div class="box">
+                        <h4>Bachelor of Computer Science Technology:</h4>
+                            <ul style="list-style-type: none;font-size:20px">
+                                <li><b>SRKR Engineering College</b></li>
+                                <li>2022-2026</li>
+                                
+                                 <li>CGPA:8.9</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h4>Intermediate:</h4>
+                                <ul style="list-style-type: none;font-size:20px">
+                                    <li><b>Narayana Junior College</b></li>
+                                    <li>2020-2022</li>
+                                    <li>Percentage:97.2%</li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h4>Secondary Board Of Education:</h4>
+                                    <ul style="list-style-type: none;font-size:20px">
+                                        <li><b>Chanakya Public School</b></li>
+                                        <li>State Board Of Education</li>
+                                        <li>Percentage:97%</li>
+                                    </ul>
+                                </div>
+                       
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <!--Skills and Technologies-->
+            <div class="container">
+                <div><h1 class="title-edu" style="padding-bottom:20px">Skills & Technologies</h1></div>
+                <p class="lead"><i>"Discover my arsenal of skills and proficiency in cutting-edge technologies. From Basic to Advanced programming languages, I bring a versatile skill set to the table. These competencies enable me to tackle a wide range of challenges, ensuring that I'm well-equipped to deliver innovative solutions and drive projects to success."</i></p>
+                <h3 style="color: antiquewhite;">Programming Skills</h3>
+                <div class="grid-skills" style="padding-top:20px">
+            
+                    <div class="box">
+                       <h3>C</h3>
+                        
+                    </div>
+                    <div class="box">
+                        <h3>C++</h3>
+                    </div>
+                    <div class="box">
+                        <h3>Java</h3>
+                    </div>
+                    <div class="box">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="box">
+                        <h3>Git</h3>
+                    </div>
+                    <div class="box">
+                        <h3>Data Structures</h3>
+                    </div>
+                    
+                </div>
+
+            
+                <h3 style="color: antiquewhite;">Technical Skills</h3>
+                <div class="grid-skills" style="padding-top:20px">
+            
+                        <div class="box">
+                           <h3>Cloud Computing</h3>
+                            
+                        </div>
+                        <div class="box">
+                            <h3>AI with python</h3>
+                        </div>
+                        <div class="box">
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="box">
+                            <h3>Devops</h3>
+                        </div>
+                        
+                    </div>
+
+                
+                <h3 style="color: antiquewhite;">Personal Skills</h3>
+                <div class="flex-cont">
+                    <div class="box" style="padding-bottom:13px">
+                        <h3>Leadership Qualities,  Time Management,    Adaptability,    Creativity</h3>
+                    </div>
+                    
+                    
+                
+            </div>
+        </section>
+
+        <section>
+            <!--Experience and certification-->
+            <div class="container">
+                <div><h1 class="title-edu" style="padding-bottom:20px">Experience & Certifications</h1></div>
+                <p class="lead"><i>"Explore my journey through the world of technology and my commitment to continuous learning. This section showcases my professional experiences, highlighting the projects and roles that have shaped my career. Additionally, you'll find certifications that validate my expertise and dedication to staying up-to-date in this ever-evolving field."</i></p>
+                <div class="d-flex flex-wrap">
+                    <div class="p-2 col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./accenturelogo.jpg" style="width: 100%; height: 250px;">
+                            <div class="bg-gray-800 card-body" style="height: 100%;">
+                                <div class="text- card-title h5">Accenture Nordics Job Simulation</div>
+                                <p class="text-white card-text" style="height: 7rem; overflow: hidden;">Certified as Accenture Nordics Developer! Skills I have developed are Architecture,Security,Programming,Testing.</p>
+                                <a role="button" tabindex="0" href="https://drive.google.com/file/d/1kPhP07Ptvy8zdtZg1q3BYq66KMp6b4qK/view?usp=drive_link" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-2 col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./blackbucks_logo.jpg" style="width: 100%; height: 250px;">
+                            <div class="bg-gray-800 card-body" style="height: 100%;">
+                                <div class="text-card-title h5">Blackbucks Intern</div>
+                                <p class="text-white card-text" style="height: 7rem; overflow: hidden;">Certified as an Intern at Blackbucks  in AI, ML, and Data Science, enhancing my skills in data-driven problem-solving, machine learning algorithms, and statistical analysis.</p>
+                                <a role="button" tabindex="0" href="https://drive.google.com/file/d/1E90t0G0DLSaUQ6C0ZeVbQYBKZdiLwXSQ/view?usp=drive_link" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2 col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./rinex.png" style="width: 100%; height: 250px;">
+                            <div class="bg-gray-800 card-body" style="height: 100%;">
+                                <div class="text- card-title h5">Cyber Security</div>
+                                <p class="text-white card-text" style="height: 7rem; overflow: hidden;">Completed the "Cyber Security with Ethical Hacking" internship with Rinex Technology. Gained hands-on experience in cybersecurity fundamentals, ethical hacking techniques, network security, threat analysis.</p>
+                                <a role="button" tabindex="0" href="https://drive.google.com/file/d/1Tt_YmFKAPXEhc_hfbijV8NSZakTCdpfn/view" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-2 col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./google.png" style="width: 100%; height: 250px;">
+                            <div class="bg-gray-800 card-body" style="height: 100%;">
+                                <div class="text- card-title h5">Google cloud computing</div>
+                                <p class="text-white card-text" style="height: 7rem; overflow: hidden;">Completed the "Foundations of Google Cloud Computing" certification by Credly Pearson, gaining expertise in core cloud concepts, Google Cloud Platform (GCP) services, infrastructure management.</p>
+                                <a role="button" tabindex="0" href="https://www.credly.com/badges/05a1153a-8678-4885-b33f-090c54495ca3/public_url" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-2 col-12 col-md-6 col-lg-4">
+                        <div class="card" style="width: 100%;">
+                            <img class="card-img-top" src="./Nptel_logo.png" style="width: 100%; height: 250px;">
+                            <div class="bg-gray-800 card-body" style="height: 100%;">
+                                <div class="text- card-title h5">Data Science For Engineers</div>
+                                <p class="text-white card-text" style="height: 7rem; overflow: hidden;">Completed NPTEL’s Data Science for Engineers certification, gaining expertise in data preprocessing, statistical analysis, machine learning algorithms, and data visualization.</p>
+                                <a role="button" tabindex="0" href="https://drive.google.com/file/d/1aaxsEW3idO3PQxFrc_6mV6F0VP9_F3_g/view" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+          
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div><h1 class="title-edu">Contact</h1></div>
+                <div class="background">
+                    
+                 <div class="image"><img style="border-radius:50%" src="./bharathprof.jpg" width="250" height="250" ></div>     
+                    
+                        <div class="navbar-brand name"><img src="./geo-alt-fill.svg" height="30">Vizianagaram,Andhra Pradesh</div>
+                        <div class="navbar-brand name"><img src="./envelope.svg" height="30"> bharath02713@gmail.com</div>
+                        <div class="navbar-brand name"><img src="./telephone-fill.svg" height="30"> +91 9032988805</div>
+                        <div class="navbar-brand name">
+                            <a href="http://www.linkedin.com/in/chandaka-bharath-kumar-149aa826a" target="_blank">
+                                <img src="./linkedin.svg" height="30">
+                            </a>
+                        </div>
+                        <div class="navbar-brand name">
+                            <a href="https://github.com/CHANDAKA-BHARATHKUMAR" target="_blank">
+                                <img src="./github.svg" height="30">
+                            </a>
+                        </div>
+                        <div class="navbar-brand name" style="color:white">
+                            <a href="https://leetcode.com/u/Chandaka_bharath_kumar/" target="_blank">
+                                <img src="./leetcode.svg" height="30">
+                            </a>
+                        </div>
+                
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
